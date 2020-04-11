@@ -82,29 +82,38 @@ article h2 {
 }
 
 article p {
-  height: 333px;
-  overflow: scroll;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 329px;
+  line-height: 139%;
+  font-size: large;
   font-style: italic;
   margin-top: 5px;
+  overflow: scroll;
   /* overflow: auto; */
-  line-height: 20pt;
+  
 
 }
 
 button {
+  margin-left: 0;
+  margin-top: 5px;
   background:#111;
   color: #fff;
   font-size: 16px;
   padding: 12px 28px;
-
+  border-radius: 5px;
 }
 
 button:hover {
   background: pink;
+  transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  -webkit-transition-duration: 350ms;
 }
 
 footer {
-  background-color: #454545;
+  background-color: grey;
   height: 100px;
   margin-top: 30px;
 }
