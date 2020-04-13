@@ -1,6 +1,6 @@
 /* use outline every element on the page to help with styling*/
 * {
-  outline: 1px dotted red;
+  /* outline: 1px dotted red; */
   box-sizing: border-box;
   /* box sizing: border-box; tells man bear pig's border and padding to fit inside the width (subtract from the width) */
 }
